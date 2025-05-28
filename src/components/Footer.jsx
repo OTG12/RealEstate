@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaBuilding, FaMobile, F
 import { Link } from 'react-scroll'
 import { IoMdMail } from 'react-icons/io'
 import Prop7 from '../assets/image/Prop7.webp'
-import Prop8 from '../assets/image/prop8.jpg'
+
 
 
 const Footer = () => {
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex justify-center items-center gap-4'>
-          <img src={Prop8} alt="Property"  className='w-[120px] rounded-lg transform hover:scale-110 cursor-pointer transition-transform duration-300'/>
+          <img src={Prop7} alt="Property"  className='w-[120px] rounded-lg transform hover:scale-110 cursor-pointer transition-transform duration-300'/>
           <div>
             <h1 className='text-lg text-white'>Villa with amazing view</h1>
             <p className='text-slate-400'>NGN 95,000,000</p>
