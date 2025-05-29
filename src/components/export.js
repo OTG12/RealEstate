@@ -3,7 +3,7 @@ import prop2 from '../assets/image/prop2.jpg'
 import prop3 from '../assets/image/prop3.jpg'
 import prop4 from '../assets/image/prop4.jpg'
 import prop5 from '../assets/image/prop5.jpg'
-import prop6 from '../assets/image/prop6.jpg'
+import prop7 from '../assets/image/Prop7.webp'
 import Client1 from '../assets/image/Client1.jpg'
 import Client2 from '../assets/image/Client2.webp'
 import Client3 from '../assets/image/Client3.jpg'
@@ -82,7 +82,7 @@ export const property = [
 
     },
     {
-        image: prop6,
+        image: prop7,
         address:'Oba House Estate, Shasha, Lagos',
         name: 'Villa with Amazing View',
         price: 'NGN 83,000,000',
