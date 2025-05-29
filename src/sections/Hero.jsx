@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDarkMode } from '../components/DarkModeContext';
-import heroimg from '../assets/image/hero.jpg';
+import heroImage from '../assets/image/hero.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
@@ -18,7 +18,12 @@ const Hero = () => {
   return (
     <>
       <div className={`${darkMode ? 'dark bg-black' : 'light bg-white'}`}>
-        <section id='hero' className='w-[95%] h-[600px] m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20' style={{ backgroundImage: `url('/src/assets/image/hero.jpg')` }}>
+        <section id='hero' className='w-[95%] h-[600px] m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20'  style={{ 
+            backgroundImage: `url(${heroImage})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}>
           <h1 data-aos="zoom-in" className='text-6xl text-white  font-semibold lg:pr-[500px] pr-0 lg:leading-[70px] leading-[60px]'>Find Your Next Home In <br /> Lagos</h1>
           <p data-aos='zoom-in' className='text-white text-x1 lg:pr-[500px] pr-0'>Through our proprietary platform, group 4 is changing how agents and <br /> clients navigate the process of finding or selling a home </p>
 
